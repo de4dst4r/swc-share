@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:babel": "webpack --config webpack.config.babel.js",
+    "build:swc": "webpack --config webpack.config.swc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "@swc/core": "^1.9.2",
+    "@swc/register": "^0.1.10",
+    "babel-loader": "^9.2.1",
+    "path-browserify": "^1.0.1",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "swc-loader": "^0.2.6",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dashboard": "^3.3.8",
+    "wepack-cli": "^0.0.1-security"
+  }
+}
